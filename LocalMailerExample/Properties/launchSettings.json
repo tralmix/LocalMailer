@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LocalMailerExample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Local"
+      }
+    }
+  }
+}
