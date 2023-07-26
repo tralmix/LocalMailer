@@ -11,8 +11,7 @@ IConfigurationRoot configuration = new ConfigurationBuilder()
 
 var builder = Host.CreateDefaultBuilder(args);
 
-var app = builder.ConfigureDefaults(Array.Empty<string>()).
-    ConfigureAppConfiguration(builder =>
+var app = builder.ConfigureAppConfiguration(builder =>
     {
         builder.AddConfiguration(configuration);
     })
